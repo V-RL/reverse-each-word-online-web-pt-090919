@@ -3,7 +3,7 @@ def reverse_each_word(sentence)
   by_word = []
   reverse_word.collect do |sentence|
     by_word << sentence.reverse
+  end
     return "#{sentence}"
-end
 end
   
